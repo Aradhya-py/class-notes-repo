@@ -65,3 +65,15 @@ a= range(10,5)
 for x in a: 
     print(x)
     
+# Float Type
+
+salary1 = 50.5
+print(salary1)
+print(type(salary1))
+
+#Complex Type
+
+a= 3 + 5j
+b= 2-5.5j
+
+print(a+b)

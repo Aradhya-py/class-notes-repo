@@ -11,8 +11,8 @@ list	 Ordered collection that can be changed	           x = [1, 2, 3]
 range	 Generates a sequence of numbers	               x = range(5)
 set	     Collection of unique values	                   x = {1, 2, 3}
 dict	 Stores key-value pairs	                           x = {"name": "John"}
-
 '''
+
 value = 10 
 print(value)
 print(type(value))
@@ -55,21 +55,28 @@ print(type(a))
 #Byte
 print(bytes(10)) # Changes value in binary form 
 x=[10 , 20 , 30]
-y=bytes(x)
+y=bytes(x) # You cannot store negative value and no. shouldn't be greater than 256 also you cannot modify byte information
 print(y[0])
 for a in y:
     print(a)
+
+#To check byte data type is immutable
+x= [10 , 20 , 30 ]
+y = bytes(x)
+y[0] = 30  # shows error dbecause byte cannot be modified 
 
 # Range function
 a= range(10,5)
 for x in a: 
     print(x)
-    
+
+  
 # Float Type
 
 salary1 = 50.5
 print(salary1)
 print(type(salary1))
+
 
 #Complex Type
 
@@ -93,3 +100,5 @@ s4 = """"
 """
 
 print(s1 , s2 , s3 , s4)
+
+

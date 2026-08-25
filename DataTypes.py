@@ -1,17 +1,4 @@
 # Type Function 
-'''
-Type	 What it means	                                   example
-Numeric	 Stores numbers	                                   x = 10
-bool	 Stores True or False	                           is_student = True
-None	 Means no value / empty value	                   x = None
-str	     Stores text	                                   name = "John"
-bytes 	 Stores binary data	                               data = b"Hello"
-tuple	 Ordered collection that cannot be changed	       x = (1, 2, 3)
-list	 Ordered collection that can be changed	           x = [1, 2, 3]
-range	 Generates a sequence of numbers	               x = range(5)
-set	     Collection of unique values	                   x = {1, 2, 3}
-dict	 Stores key-value pairs	                           x = {"name": "John"}
-'''
 
 value = 10 
 print(value)
@@ -59,12 +46,12 @@ y=bytes(x) # You cannot store negative value and no. shouldn't be greater than 2
 print(y[0])
 for a in y:
     print(a)
-
+'''
 #To check byte data type is immutable
 x= [10 , 20 , 30 ]
 y = bytes(x)
 y[0] = 30  # shows error dbecause byte cannot be modified 
-
+'''
 # Range function
 a= range(10,5)
 for x in a: 
@@ -86,6 +73,7 @@ b= 2-5.5j
 print(a+b)  
 
 #String 
+
 s1 = '1'
 s2 = "2"
 s3 = '''
@@ -101,4 +89,33 @@ s4 = """"
 
 print(s1 , s2 , s3 , s4)
 
+# String Convertion 
 
+val = "abcd" + str(34)
+print(val)
+val1 = 12 + int("56")
+print(val1)
+
+#int variable 
+a = 5 
+
+# typecast to float 
+n = float(a)
+print(n)
+print(type(n))
+
+# float variable 
+a = 5.9
+
+# typecast to int 
+n = int(a)
+print(n)
+print(type(n))
+
+#int variable 
+a = 5
+
+# typecast to str 
+n = str(a)
+print(n)
+print(type(__name__))

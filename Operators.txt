@@ -1,0 +1,17 @@
+Precedence
+When you combine multiple operators in a single line of code, Python uses an execution order similar to regular mathematics (PEMDAS/BODMAS)
+1.Parentheses ()  Anything inside brackets always runs first.
+2.Exponentiation  **
+3.Multiplication, Division, Floor Division, Modulus  *, /, //, %
+4.Addition and Subtraction  +, -
+5.Comparisons and Membership ==, !=, >, <, in, is
+6.Logical NOT
+7.Logical AND
+8.Logical OR
+
+if two operators have the same precedence level in an expression (like addition and
+subtraction), Python reads them using associativity, which is almost always left-to-
+right.
+
+Example : 10 - 4 + 2 is evaluated as (10 - 4) + 2 = 8.
+

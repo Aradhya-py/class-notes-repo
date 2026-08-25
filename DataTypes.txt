@@ -1,0 +1,13 @@
+Type Function 
+
+Type	 What it means	                                   example
+Numeric	 Stores numbers	                                   x = 10
+bool	 Stores True or False	                           is_student = True
+None	 Means no value / empty value	                   x = None
+str	     Stores text	                                   name = "John"
+bytes 	 Stores binary data	                               data = b"Hello"
+tuple	 Ordered collection that cannot be changed	       x = (1, 2, 3)
+list	 Ordered collection that can be changed	           x = [1, 2, 3]
+range	 Generates a sequence of numbers	               x = range(5)
+set	     Collection of unique values	                   x = {1, 2, 3}
+dict	 Stores key-value pairs	                           x = {"name": "John"}

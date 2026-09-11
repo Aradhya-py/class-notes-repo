@@ -15,3 +15,42 @@ right.
 
 Example : 10 - 4 + 2 is evaluated as (10 - 4) + 2 = 8.
 
+Types of operators
+
+1.Arithmetic Operators  
+-Used to perform standard mathematical calculations.
++ Addition: Adds values 
+- Subtraction: Subtracts values
+* Multiplication: Multiplies values 
+/ Division: Divides values; always returns a float
+// Floor Division: Divides and rounds down to the nearest integer 
+% Modulus: Returns the division remainder
+** Exponentiation: Raises to a power 
+
+2.Assignment Operators
+-Used to assign and update values stored in variables.
+= Assignment: Assigns right side to left side
++= Add and Assign: Shortcuts addition
+-= Subtract and Assign: Shortcuts subtraction
+*= Multiply and Assign: Shortcuts multiplication 
+/= Divide and Assign: Shortcuts division
+
+3.Membership operators
+-Test whether a value or sequence is present inside a container like a list, string, or tuple.
+in In: Returns True if the value exists in the sequence.
+not in Not In: Returns True if the value does not exist in the sequence.
+
+4.Identity Operators
+-Compare whether two variables point to the exact same object in computer memory, rather than checking if their values are just equal.
+is Is: Returns True if both variables point to identical memory addresses.
+is not Is Not: Returns True if the variables point to different objects in memory.
+
+5.Comparison Operators
+-Compare two values and evaluate to a Boolean result (True or False).
+== Equal to: True if values are identical
+!= Not equal to: True if values are different 
+> Greater than: True if left side is larger 
+< Less than: True if left side is smaller 
+>= Greater than or equal to: (5 >= 5)
+<= Less than or equal t0
+
